@@ -6,7 +6,7 @@ const ApiRoutes = require('./api/routes/Api');
 const userRoutes = require('./api/routes/user');
 const Documentation = require('./api/routes/documentation');
 
-mongoose.connect('mongodb+srv://abhinay:'+process.env.MONGO_ATLAS_PW+'@cluster0.k0uht.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
+mongoose.connect('mongodb+srv://abhinay:Abhinay@22@cluster0.k0uht.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true })
 app.use(morgan('dev'));
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
