@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const  ApiController = require( '../controllers/Api.js');
+const  ApiController = require( '../controllers/api');
 
 
 router.get('/states',ApiController.api_get_states);

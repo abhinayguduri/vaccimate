@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const mongoose = require('mongoose');
-const ApiRoutes = require('./api/routes/Api');
+const ApiRoutes = require('./api/routes/api');
 const userRoutes = require('./api/routes/user');
 const Documentation = require('./api/routes/documentation');
 
